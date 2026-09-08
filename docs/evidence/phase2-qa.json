@@ -1,0 +1,55 @@
+{
+  "phase": "phase2",
+  "base": "http://localhost:3000",
+  "checks": [
+    {
+      "route": "/",
+      "axe": []
+    },
+    {
+      "route": "/design-system",
+      "axe": []
+    },
+    {
+      "width": 375,
+      "overflow": {
+        "viewport": 375,
+        "content": 375
+      },
+      "h1": "El control\nque no se ve."
+    },
+    {
+      "width": 390,
+      "overflow": {
+        "viewport": 390,
+        "content": 390
+      },
+      "h1": "El control\nque no se ve."
+    },
+    {
+      "width": 768,
+      "overflow": {
+        "viewport": 768,
+        "content": 768
+      },
+      "h1": "El control\nque no se ve."
+    },
+    {
+      "width": 1280,
+      "overflow": {
+        "viewport": 1280,
+        "content": 1280
+      },
+      "h1": "El control\nque no se ve."
+    },
+    {
+      "width": 1920,
+      "overflow": {
+        "viewport": 1920,
+        "content": 1920
+      },
+      "h1": "El control\nque no se ve."
+    }
+  ],
+  "errors": []
+}

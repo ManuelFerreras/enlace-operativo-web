@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Heading",
+    "foreground": "#f1f3eb",
+    "background": "#0b1017",
+    "ratio": 17.04,
+    "AA": true,
+    "AAA": true
+  },
+  {
+    "label": "Body",
+    "foreground": "#c7ceca",
+    "background": "#0b1017",
+    "ratio": 11.91,
+    "AA": true,
+    "AAA": true
+  },
+  {
+    "label": "Metadata",
+    "foreground": "#9ba7a0",
+    "background": "#0b1017",
+    "ratio": 7.66,
+    "AA": true,
+    "AAA": true
+  },
+  {
+    "label": "Body on surface",
+    "foreground": "#c7ceca",
+    "background": "#151e29",
+    "ratio": 10.49,
+    "AA": true,
+    "AAA": true
+  },
+  {
+    "label": "Metadata on surface",
+    "foreground": "#9ba7a0",
+    "background": "#151e29",
+    "ratio": 6.75,
+    "AA": true,
+    "AAA": false
+  },
+  {
+    "label": "Primary CTA",
+    "foreground": "#0b1017",
+    "background": "#ff575f",
+    "ratio": 6.16,
+    "AA": true,
+    "AAA": false
+  },
+  {
+    "label": "Accent text",
+    "foreground": "#ff575f",
+    "background": "#0b1017",
+    "ratio": 6.16,
+    "AA": true,
+    "AAA": false
+  }
+]

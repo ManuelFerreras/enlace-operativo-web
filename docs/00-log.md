@@ -16,3 +16,6 @@ Tres SOTD B2B recientes verificados, dos referentes premium y capturas de compet
 
 ## Cambio de alcance solicitado
 El usuario pospone Vercel y solicita ejecución local + ngrok compartido en tiempo real. No se publica en Vercel. Preview: https://cytotropic-valentine-noncoincidentally.ngrok-free.dev.
+
+## Fase 2 — concepto y sistema
+Identidad adaptada a los siete PDF aportados: Enlace Operativo, logo original y navy/rojo. Sistema, tokens, componentes y /design-system funcionales. Fuentes locales next/font para compilación sin red; webpack tras incompatibilidad de sandbox de Turbopack build. Build, lint y tipos limpios. Axe cero violaciones en home y sistema; cinco tamaños sin desbordamiento. Contraste body 11.91:1. Auditor A independiente en curso. Fotografía real incorporada para responder a observación de diferenciación.

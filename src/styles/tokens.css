@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+:root {
+  --neutral-0: #f1f3eb;
+  --neutral-1: #e0e5df;
+  --neutral-2: #c7ceca;
+  --neutral-3: #aeb9b2;
+  --neutral-4: #9ba7a0;
+  --neutral-5: #7f8d85;
+  --neutral-6: #4b5c51;
+  --neutral-7: #283341;
+  --neutral-8: #151e29;
+  --neutral-9: #0b1017;
+  --accent: #ff575f;
+  --success: #b0f59d;
+  --warning: #f7d28b;
+  --danger: #ffaaa6;
+  --background: var(--neutral-9);
+  --foreground: var(--neutral-0);
+  --text-body: var(--neutral-2);
+  --text-muted: var(--neutral-4);
+  --surface: var(--neutral-8);
+  --border: var(--neutral-7);
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-11: 44px;
+  --space-12: 48px;
+  --space-13: 52px;
+  --space-14: 56px;
+  --space-15: 60px;
+  --space-16: 64px;
+  --gutter: clamp(var(--space-6), 4.2vw, var(--space-16));
+  --section-space: clamp(6rem, 10vw, 10rem);
+  --container: 1600px;
+  --type-hero: clamp(4rem, 9.4vw, 9rem);
+  --type-display: clamp(2.5rem, 5.2vw, 5rem);
+  --type-heading: clamp(2rem, 3.4vw, 3.25rem);
+  --type-subheading: clamp(1.5rem, 2.2vw, 2rem);
+  --type-body: clamp(1rem, 1.15vw, 1.125rem);
+  --type-small: .875rem;
+  --type-meta: .75rem;
+  --radius: 4px;
+  --line: 1px;
+  --focus-width: 2px;
+  --ease-out-expo: cubic-bezier(.16, 1, .3, 1);
+  --ease-in-out-quart: cubic-bezier(.76, 0, .24, 1);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
+  --duration-cinematic: 1200ms;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-muted: var(--text-muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --font-sans: var(--font-manrope);
+  --font-mono: var(--font-ibm);
+  --spacing: 4px;
+}
