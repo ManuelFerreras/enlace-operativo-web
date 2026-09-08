@@ -1,0 +1,2 @@
+import { newsletterSchema } from '@/content/forms';
+export async function POST(request:Request){try{const raw=await request.text();if(raw.length>1000)return Response.json({ok:false},{status:413});if(!newsletterSchema.safeParse(JSON.parse(raw)).success)return Response.json({ok:false},{status:400});console.info('[newsletter:demo]',{validated:true,subscription:'disabled'});return Response.json({ok:true,mode:'demo'});}catch{return Response.json({ok:false},{status:400});}}

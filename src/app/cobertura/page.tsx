@@ -1,0 +1,7 @@
+import type { Metadata } from 'next';
+import { LocationMap } from '@/components/location-map';
+import { Button, SectionHeading } from '@/components/ui';
+import { coverageStates, contact } from '@/content/site';
+import { FAQSection } from '@/components/home-sections';
+export const metadata:Metadata={title:'Cobertura',description:'Presencia documentada en 12 estados de México y atención desde Ciudad de México.'};
+export default function Coverage(){return <main id="main"><section className="section page-intro"><p className="eyebrow">03 / COBERTURA</p><h1>Una coordinación.<br/><span className="accent-text">Muchos entornos.</span></h1><p>El dossier corporativo documenta presencia en 12 estados. Confirma con nuestro equipo la disponibilidad para tu ubicación.</p></section><section className="section coverage-page"><LocationMap/><div className="coverage-state-grid">{coverageStates.map((state,index)=><div key={state}><span className="mono">{String(index+1).padStart(2,'0')}</span>{state}</div>)}</div><p className="microcopy">Fuente: carpeta comercial 2026, p. 26; dossier 2026, p. 15. Los nodos del mapa representan regiones aproximadas, no domicilios de sucursales.</p></section><section className="section headquarters"><SectionHeading number="01" label="OFICINA CENTRAL">Hablemos desde<br/>Ciudad de México.</SectionHeading><div><p>{contact.address}</p><p>{contact.hours}</p><a href={contact.phoneHref} className="text-link">{contact.phone}</a><Button href="/contacto">Consultar mi ubicación</Button></div></section><FAQSection/></main>}
